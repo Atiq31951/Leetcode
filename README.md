@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Atiq31951/Leetcode/tree/master/0001-two-sum) |
+| [0027-remove-element](https://github.com/Atiq31951/Leetcode/tree/master/0027-remove-element) |
 | [0049-group-anagrams](https://github.com/Atiq31951/Leetcode/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/Atiq31951/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/Atiq31951/Leetcode/tree/master/0217-contains-duplicate) |
@@ -36,4 +37,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Atiq31951/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+## Two Pointers
+|  |
+| ------- |
+| [0027-remove-element](https://github.com/Atiq31951/Leetcode/tree/master/0027-remove-element) |
 <!---LeetCode Topics End-->
