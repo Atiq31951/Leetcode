@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Atiq31951/Leetcode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/Atiq31951/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/Atiq31951/Leetcode/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
+| [1929-concatenation-of-array](https://github.com/Atiq31951/Leetcode/tree/master/1929-concatenation-of-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -75,4 +76,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Atiq31951/Leetcode/tree/master/0014-longest-common-prefix) |
+## Simulation
+|  |
+| ------- |
+| [1929-concatenation-of-array](https://github.com/Atiq31951/Leetcode/tree/master/1929-concatenation-of-array) |
 <!---LeetCode Topics End-->
