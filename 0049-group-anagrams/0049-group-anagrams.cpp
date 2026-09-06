@@ -1,32 +1,37 @@
 class Solution {
 public:
-    vector<vector<string>> groupAnagrams(vector<string>& strs) {
-        unordered_map<string, vector<string>> mp;
-        int chars[26] = {};
+    string makeSorted(string str) {
+        int charArr[26];
+        memset(charArr, 0, sizeof(charArr));
+        string sortedStr = "";
 
-        for(string str : strs) {
-            memset(chars, 0, sizeof(chars));
+        for(char ch : str) charArr[ch - 97]++;
 
-            for(char c : str) {
-                chars[c - 'a']++;
+        for(int i = 0; i < 26; i++) {
+            for(int j = 0; j < charArr[i]; j++) {
+                sortedStr += 'a' + i;
             }
-
-            cout<<"Hello"<<endl;
-
-            string ss = "";
-            for(int i = 0; i < 26; i++) {
-                if(chars[i]) {
-                    for(int j = 0; j < chars[i]; j++) ss += char('a' + i);
-                }
-            }
-
-            mp[ss].push_back(str);
         }
+
+        return sortedStr;
+    }
+
+    vector<vector<string>> groupAnagrams(vector<string>& strs) {
+        unordered_map<string, vector<string>> vmp;
+        string sorted = "";
 
         vector<vector<string>> ans;
 
-        for(auto m : mp) {
-            ans.push_back(m.second);
+        for(int i = 0; i < strs.size(); i++) {
+            sorted = makeSorted(strs[i]);
+            vmp[sorted].push_back(strs[i]);
+        }
+
+        auto mp = vmp.begin();
+
+        while (mp != vmp.end()) {
+            ans.push_back(mp -> second);
+            mp++;
         }
 
         return ans;
